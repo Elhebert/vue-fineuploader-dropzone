@@ -33,6 +33,7 @@ git clone https://github.com/Elhebert/vue-fineuploader.git
 - `dropzone`: Object container the different dropzone options
 
 	The possible options are:
+  
 		- `element`: id or class of the container element that should be treated as drop zone.
 		- `dropActive`: Specify a CSS class to apply to drop zone(s) when a file has entered it.
 

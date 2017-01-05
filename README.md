@@ -1,6 +1,8 @@
 # vue-fineuploader
 
 [![Build Status](https://travis-ci.org/Elhebert/vue-fineuploader.svg?branch=master)](https://travis-ci.org/Elhebert/vue-fineuploader)
+[![Dependency Status](https://david-dm.org/Elhebert/vue-fineuploader.svg)](https://david-dm.org/Elhebert/vue-fineuploader)
+[![devDependency Status](https://david-dm.org/Elhebert/vue-fineuploader/dev-status.svg)](https://david-dm.org/Elhebert/vue-fineuploader#info=devDependencies)
 
 A VueJS 2 Component for Fine Uploader with a drag'n'drop area.
 

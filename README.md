@@ -70,3 +70,5 @@ export default {
 };
 </script>
 ```
+
+This script is published under the [MIT license](./LICENSE)

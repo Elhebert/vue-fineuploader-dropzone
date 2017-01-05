@@ -30,6 +30,11 @@ git clone https://github.com/Elhebert/vue-fineuploader.git
 
     See the official Fine Uploader documentation [for detailed information about the different events](http://docs.fineuploader.com/branch/master/api/events.html)
 
+- `dropzone`: Object container the different dropzone options
+
+	The possible options are:
+		- `element`: id or class of the container element that should be treated as drop zone.
+		- `dropActive`: Specify a CSS class to apply to drop zone(s) when a file has entered it.
 
 ### Example
 

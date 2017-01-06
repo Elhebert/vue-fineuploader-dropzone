@@ -1,16 +1,15 @@
 {
-  "name": "vue-fineuploader",
+  "name": "vue-fineuploader-dropzone",
   "version": "1.0.0",
   "description": "A VueJS 2 component for Fine Uploader",
   "keywords": ["fine-uploader", "vuejs", "fineuploader", "vue-fineuploader", "dragndrop", "upload"],
   "main": "FineUploader.vue",
   "repository": {
-    "url": "https://github.com/Elhebert/vue-fineuploader.git",
+    "url": "https://github.com/Elhebert/vue-fineuploader-dropzone.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/Elhebert/vue-fineuploader/issues",
-    "email": "elhebert@hotmail.be"
+    "url": "https://github.com/Elhebert/vue-fineuploader-dropzone/issues"
   },
   "author": {
     "name" : "Dieter Stinglhamber",

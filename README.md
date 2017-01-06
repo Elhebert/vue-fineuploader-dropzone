@@ -1,8 +1,8 @@
-# vue-fineuploader
+# vue-fineuploader-dropzone
 
-[![Build Status](https://travis-ci.org/Elhebert/vue-fineuploader.svg?branch=master)](https://travis-ci.org/Elhebert/vue-fineuploader)
-[![Dependency Status](https://david-dm.org/Elhebert/vue-fineuploader.svg)](https://david-dm.org/Elhebert/vue-fineuploader)
-[![devDependency Status](https://david-dm.org/Elhebert/vue-fineuploader/dev-status.svg)](https://david-dm.org/Elhebert/vue-fineuploader?type=dev)
+[![Build Status](https://travis-ci.org/Elhebert/vue-fineuploader-dropzone.svg?branch=master)](https://travis-ci.org/Elhebert/vue-fineuploader-dropzone)
+[![Dependency Status](https://david-dm.org/Elhebert/vue-fineuploader-dropzone.svg)](https://david-dm.org/Elhebert/vue-fineuploader-dropzone)
+[![devDependency Status](https://david-dm.org/Elhebert/vue-fineuploader-dropzone/dev-status.svg)](https://david-dm.org/Elhebert/vue-fineuploader-dropzone?type=dev)
 
 A VueJS 2 Component for Fine Uploader with a drag'n'drop area.
 
@@ -14,11 +14,11 @@ Get the `FineUploader` component:
 
 - with npm:
 ```
-npm install --save vue-fineuploader
+npm install --save vue-fineuploader-dropzone
 ```
 - clone this repository and copy the `FineUploader.vue` into your project:
 ```
-git clone https://github.com/Elhebert/vue-fineuploader.git
+git clone https://github.com/Elhebert/vue-fineuploader-dropzone.git
 ```
 
 
@@ -35,8 +35,8 @@ git clone https://github.com/Elhebert/vue-fineuploader.git
 - `dropzone`: Object container the different dropzone options
 
 	The possible options are:
-    
-    `element`: id or class of the container element that should be treated as drop zone.  
+
+    `element`: id or class of the container element that should be treated as drop zone.
     `dropActive`: Specify a CSS class to apply to drop zone(s) when a file has entered it.
 
 ### Example

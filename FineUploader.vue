@@ -12,6 +12,9 @@
 
   export default {
     props: {
+      button: {
+        type: String,
+      },
       options: {
         type: Object,
         default: () => Object(),
@@ -27,11 +30,15 @@
     },
 
     mounted() {
+      /* eslint-disable */
+
       const fineUploaderBasicInstance = new qq.FineUploaderBasic({
+        button: window.document.querySelector(this.button),
         ...this.options,
         callbacks: this.callbacks,
       });
-      qq.DragAndDrop({
+
+      new qq.DragAndDrop({
         dropZoneElements: window.document.querySelectorAll(this.dropZone.element),
         classes: {
           dropActive: this.dropZone.dropActive,

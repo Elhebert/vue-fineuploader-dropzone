@@ -65,7 +65,7 @@ For example, to listen to the `onAllComplete` callback, you need to listen to th
     <div>
         <FineUplaoder :button="button" 
                       :options="options" 
-                      :dropzone="dropzone"
+                      :dropZone="dropZone"
                       @submit="addFileToQueue">
             <div class="drop-area">
                 Drop your files here
@@ -92,7 +92,7 @@ export default {
                 },
                 ...
             },
-            dropzone: {
+            dropZone: {
                 element: '.drop-area',
                 dropActive: 'active'
             },

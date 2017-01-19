@@ -4,6 +4,23 @@
 [![Dependency Status](https://david-dm.org/Elhebert/vue-fineuploader-dropzone.svg)](https://david-dm.org/Elhebert/vue-fineuploader-dropzone)
 [![devDependency Status](https://david-dm.org/Elhebert/vue-fineuploader-dropzone/dev-status.svg)](https://david-dm.org/Elhebert/vue-fineuploader-dropzone?type=dev)
 
+
+## New Version In Progress
+
+I'm refactoring the `vue-uploader` component to be more customisable and to use all the options that fineuploader offer.
+You can see the **WIP** here [vue-fineuploader/feature/refactor](https://github.com/Elhebert/vue-fineuploader/tree/feature/refactor). This new version is based on the react components (https://github.com/FineUploader/react-fine-uploader).
+
+It'll offer a wrapper for each endpoints of fineuploader, and a component for all the UI options (dropzone, fileinput, cancel-button, ...).
+
+This component won't be updated or supported after it's released.
+
+
+Be sure to check it out, and help in anyway you can, porting a component or the documenation, everyone can help !
+
+ETA: end of January.
+
+---
+
 A VueJS 2 Component for Fine Uploader with a drag'n'drop area.
 
 For the core version (without the drag'n'drop support) see: [https://github.com/Elhebert/vue-fineuploader](https://github.com/Elhebert/vue-fineuploader)
@@ -65,7 +82,7 @@ For example, to listen to the `onAllComplete` callback, you need to listen to th
     <div>
         <FineUplaoder :button="button" 
                       :options="options" 
-                      :dropzone="dropzone"
+                      :dropZone="dropZone"
                       @submit="addFileToQueue">
             <div class="drop-area">
                 Drop your files here
@@ -92,7 +109,7 @@ export default {
                 },
                 ...
             },
-            dropzone: {
+            dropZone: {
                 element: '.drop-area',
                 dropActive: 'active'
             },

@@ -7,7 +7,7 @@
 
 ## New Version In Progress
 
-I'm refactoring the `vue-uploader` component to be more customisable and to use all the options that fineuploader offer.
+I'm refactoring the `vue-fineuploader` component to be more customisable and to use all the options that fineuploader offer.
 You can see the **WIP** here [vue-fineuploader/feature/refactor](https://github.com/Elhebert/vue-fineuploader/tree/feature/refactor). This new version is based on the react components (https://github.com/FineUploader/react-fine-uploader).
 
 It'll offer a wrapper for each endpoints of fineuploader, and a component for all the UI options (dropzone, fileinput, cancel-button, ...).

@@ -19,6 +19,12 @@ Be sure to check it out, and help in anyway you can, porting a component or the 
 
 ETA: end of January.
 
+## The release candidate of vue-fineuploader v2.0.0 has been released
+
+[Release notes](https://github.com/FineUploader-transfer/vue-fineuploader/releases/tag/v2.0.0-rc.1)
+
+This repository is now outdated, and the package won't be supported anymore.
+
 ---
 
 A VueJS 2 Component for Fine Uploader with a drag'n'drop area.

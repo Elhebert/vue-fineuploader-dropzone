@@ -95,7 +95,7 @@ For example, to listen to the `onAllComplete` callback, you need to listen to th
                 <br>or<br>
                 <div class="browse"></div>
             </div>
-        </FineUplaoder>
+        </FineUploader>
     </div>
 </template>
 

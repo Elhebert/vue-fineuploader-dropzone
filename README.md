@@ -86,7 +86,7 @@ For example, to listen to the `onAllComplete` callback, you need to listen to th
 ```js
 <template>
     <div>
-        <FineUplaoder :button="button" 
+        <FineUploader :button="button" 
                       :options="options" 
                       :dropZone="dropZone"
                       @submit="addFileToQueue">
